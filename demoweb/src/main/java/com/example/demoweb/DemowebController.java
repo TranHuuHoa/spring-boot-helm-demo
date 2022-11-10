@@ -11,7 +11,7 @@ public class DemowebController {
 
     @GetMapping("/")
     public String home() {
-        return "Hello World from COE - EVN docker kubernetes class";
+        return "Hello World from docker kubernetes class";
     }
 
 }

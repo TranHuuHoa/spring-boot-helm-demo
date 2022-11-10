@@ -1,7 +1,8 @@
 cd demoweb
-docker compose build
-docker compose up
-Visit http://localhost:8080/ you should get 'Hello World.'
+chmod +x mvnw
+docker-compose build
+docker-compose up
+Visit http://localhost:8080/
 
 docker build -t tranhuuhoa/spring-boot-helm-demo .
 docker push tranhuuhoa/spring-boot-helm-demo
